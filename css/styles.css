@@ -1,0 +1,223 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Great Vibes', cursive; */
+
+/* universal */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* html default */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+/* feature section */
+.feature {
+    height: 625px;
+    background: url("../images/feature-image.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 625px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* feature title */
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    width: 550px;
+    padding: 20px;
+    background: linear-gradient(#1B5185, rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* feature content */
+.title-content {
+    color: #fff;
+    padding: 10px 30px;
+    width: 900px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(#436DA4, rgba(0, 0, 0, 0.5));
+}
+
+/* about section */
+.about {
+    background: linear-gradient(#89B544, #8ab544c0);
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* about h2 */
+.about h2 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    padding: 50px;
+}
+
+/* about cards */
+.about .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* card design */
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    width: 300px;
+    background-color: #2D5B1D;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* card image */
+.card-1 img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 2s;
+    transition-timing-function: ease-in-out;
+}
+
+/* card paragraph */
+.card-1 p {
+    margin-top: 8px;
+}
+
+/* card design */
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    width: 300px;
+    background-color: #2D5B1D;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* card image */
+.card-2 img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* card paragraph */
+.card-2 p {
+    margin-top: 8px;
+}
+
+/* card design */
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    width: 300px;
+    background-color: #2D5B1D;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* card image */
+.card-3 img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+/* card paragraph */
+.card-3 p {
+    margin-top: 8px;
+}
+
+/* card-desgin on hover */
+.card-1:hover {
+    cursor: pointer;
+    background-color: #70963b;
+    color: black;
+}
+
+/* card-desgin on hover */
+.card-2:hover {
+    cursor: pointer;
+    background-color: #70963b;
+    color: black;
+}
+
+/* card-desgin on hover */
+.card-3:hover {
+    cursor: pointer;
+    background-color: #70963b;
+    color: black;
+}
+
+/* guider card section */
+.card {
+    background: linear-gradient(#446DA5, rgba(0,0,0,0.6));
+    padding: 170px 0px;
+    height: 625px;
+}
+
+/* guider card design */
+.business-card {
+    background-color: #1A3C45;
+    width: 45%;
+    display: flex;
+    margin: 0px auto;
+    padding: 20px 18px;
+    border-radius: 15px;
+    box-shadow: 0px 10px #000000;
+}
+
+/* guider card image */
+.business-card img {
+    border-radius: 10px;
+}
+
+/* guider card content */
+.business-card .business-detail {
+    text-align: center;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+/* guider card para spacing */
+.business-detail p {
+    margin: 20px 0px;
+}
